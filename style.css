@@ -1,29 +1,32 @@
-
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-
-.navbar{
+/*  style for banner section */
+.navbar {
     margin: 5px;
     display: flex;
     justify-content: space-around;
     padding: 10px;
+}
 
 
-    }
-
-
-.button{
-     background-color: rgb(182, 240, 148); 
+.button {
+    background-color: rgb(182, 240, 148);
 
 }
-.sign{
+
+.sign {
     padding: 5px 15px;
+    color: ;
 }
 
-.banner{
+.bd20 {
+    color: gray;
+}
+
+.banner {
     display: flex;
     margin: auto;
     background-color: rgb(206, 240, 186);
@@ -34,29 +37,142 @@
     align-items: center;
 }
 
-.explore{
- background-color:rgb(0, 106, 80);
- padding: 10px 15px;
- color: aliceblue;
- font-size: medium;
+.explore {
+    background-color: rgb(0, 106, 80);
+    padding: 10px 15px;
+    color: aliceblue;
+    font-size: medium;
 
 }
-:hover.explore{
+
+:hover.explore {
     background-color: rgb(12, 9, 39);
     color: aliceblue;
 }
 
-
-.container{
+.container {
     justify-content: left;
     margin: 5%;
-    
- 
-   
 }
 
-.image{
+.image {
     justify-content: end;
-  }
-  
 
+}
+
+
+
+/*  style for oillars of Bangladesh */
+
+.pillarsofbd {
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+
+.pillars {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.pillar-image {
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 70px 90px;
+    background-color: rgb(245, 241, 235);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/*  style for Vision of future */
+
+.vision-future {
+    padding: 30px;
+
+}
+
+
+.vision {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.vision-image1 {
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 70px 90px;
+
+
+    background-color: rgb(241, 215, 181);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn1 {
+    background-color: rgb(42, 142, 230);
+    padding: 5px 10px;
+    margin: 20px;
+
+}
+
+.btn1:hover {
+    background-color: aquamarine;
+    color: #092cf7;
+}
+
+
+.vision-image2 {
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 70px 90px;
+
+    background-color: rgb(172, 241, 162);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn2 {
+    background-color: rgb(111, 236, 94);
+    padding: 5px 10px;
+    margin: 20px;
+
+}
+
+.btn2:hover {
+    background-color: rgb(33, 63, 53);
+    color: rgb(243, 21, 21);
+}
+
+
+.vision-image3 {
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 70px 90px;
+
+    background-color: rgb(191, 212, 230);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.btn3 {
+    background-color: rgb(221, 238, 123);
+    padding: 5px 10px;
+    margin: 20px;
+
+}
+
+.btn3:hover {
+    background-color: rgb(16, 93, 236);
+    color: rgb(13, 236, 225);
+}
