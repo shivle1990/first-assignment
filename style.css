@@ -19,7 +19,7 @@
 
 .sign {
     padding: 5px 15px;
-    color: ;
+    
 }
 
 .bd20 {
@@ -28,11 +28,9 @@
 
 .banner {
     display: flex;
-    margin: auto;
+    margin: 0px 20px 0px 20px;
     background-color: rgb(206, 240, 186);
     border-radius: 10px;
-    height: 560px;
-    width: 1280px;
     justify-content: space-between;
     align-items: center;
 }
@@ -62,51 +60,63 @@
 
 
 
-/*  style for oillars of Bangladesh */
+/*  style for pillars of Bangladesh */
 
-.pillarsofbd {
-    padding: 30px;
-    justify-content: space-between;
+.pillarsofbd{
+    margin: 20px 20px 0px 20px;
+    justify-content: space-around;
+  
+  
+
+   
 
 }
 
-
-.pillars {
+.pillars{
+    margin: 20px;
     display: flex;
-    justify-content: space-between;
-
-
-
+    justify-content: space-around;
+    text-align: left;
 }
+
+
+
 
 .pillar-image {
+    margin: 0px 10px 0px 0px;
+    background-image:url('assets/card-icon.png');
+    background-repeat: no-repeat;
+    background-position: left 15px top 15px;
+
+
     text-align: left;
-    justify-content: space-between;
-    margin-top: 10px;
     padding: 70px 90px;
     background-color: rgb(245, 241, 235);
     border-radius: 10px;
-    margin: 10px;
+ 
 }
-
 
 /*  style for Vision of future */
 
 .vision-future {
-    padding: 30px;
-
+        margin: 20px 20px 0px 20px;
+        justify-content: space-around;
 }
+      
 
 
 .vision {
+    margin: 10px;
     display: flex;
     justify-content: space-around;
-
+  
 }
 
 .vision-image1 {
+    background-image:url('assets/card-icon.png');
+    background-repeat: no-repeat;
+    background-position: left 15px top 15px;
     text-align: left;
-    justify-content: space-between;
     margin-top: 10px;
     padding: 70px 90px;
 
@@ -130,8 +140,11 @@
 
 
 .vision-image2 {
+    background-image:url('assets/card-icon.png');
+    background-repeat: no-repeat;
+    background-position: left 15px top 15px;
+
     text-align: left;
-    justify-content: space-between;
     margin-top: 10px;
     padding: 70px 90px;
 
@@ -154,25 +167,77 @@
 
 
 .vision-image3 {
+    background-image:url('assets/card-icon.png');
+    background-repeat: no-repeat;
+    background-position: left 15px top 15px;
+
     text-align: left;
-    justify-content: space-between;
     margin-top: 10px;
     padding: 70px 90px;
 
-    background-color: rgb(191, 212, 230);
+    background-color: rgb(215, 235, 248);
     border-radius: 10px;
     margin: 10px;
-
 }
 
-.btn3 {
-    background-color: rgb(221, 238, 123);
+.btn2 {
+    background-color: rgb(141, 131, 230);
     padding: 5px 10px;
     margin: 20px;
 
 }
 
-.btn3:hover {
-    background-color: rgb(16, 93, 236);
-    color: rgb(13, 236, 225);
+.btn2:hover {
+    background-color: rgb(186, 233, 217);
+    color: rgb(59, 165, 184);
 }
+
+
+/* quotation */
+
+.quotation {
+background-image: url('assets/quote-bg.png');
+background-repeat: no-repeat;
+background-position: left 15px top 15px;
+
+
+    margin: 20px 20px 0px 20px;
+    justify-content: space-around;
+    background-color: rgb(245, 237, 237);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.poverty {
+  font-size: 30px;
+}
+
+/* Recent news section */
+.recent-news {
+    margin: 20px 20px 0px 20px;
+    justify-content: space-around;
+    background-color: rgb(225, 243, 208);
+    border-radius: 10px;
+    padding: 30px;}
+
+
+    .satellitenews {
+        margin: 20px 20px 0px 20px;
+        justify-content: space-around;
+        background-color: rgb(247, 247, 247);
+        border-radius: 10px;
+        padding: 30px;}
+
+        .satellite{
+            background-image: url('assets/satelite.png');
+            background-repeat: no-repeat;
+            background-position: left 15px top 15px;
+            
+            
+                margin: 20px 20px 0px 20px;
+                justify-content: space-around;
+                background-color: rgb(245, 237, 237);
+                border-radius: 10px;
+                padding: 30px;
+                text-align: right;
+            }
